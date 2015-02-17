@@ -6,7 +6,8 @@ body {
 }
 
 #main {
-    width: 500px;
+    width: 70%;
+    min-width: 500px;
     margin: auto;
     text-align: left;
     background: white;
@@ -62,7 +63,7 @@ form input[type=text] {
 .chat {
     padding: 5px;
     margin-bottom: 5px;
-    background-color: #eee;
+    background-color: #ffffff;
 }
 
 .chat .username {
@@ -70,7 +71,7 @@ form input[type=text] {
 }
 
 .chat:hover {
-    background-color: #ddd;
+    background-color: #5bc0de;
 }
 
 .spinner {
@@ -81,4 +82,8 @@ form input[type=text] {
 
 .spinner img {
     padding: 10px;
+}
+#chats {
+    height: 500px;
+    overflow-y: scroll;
 }
